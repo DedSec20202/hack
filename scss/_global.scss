@@ -1,0 +1,36 @@
+/* Fonts */
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'HACKED';
+    src: url(../fonts/HackedCyr.ttf);
+}
+
+$font_family_1: 'Roboto';
+$font_family_2: 'HACKED';
+
+.container {
+    max-width: 1180px; // 1920 все меняется
+    margin: 0 auto;
+    padding: 0 15px;
+}
+body{
+    background-color: #1E1E1E;
+}
+
+.h2_header{
+    text-align: center;
+    font-family: $font_family_2;
+    font-size: 52px;
+    color: #00FF97;
+    text-shadow: -4px 4px 4px #3490DE;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.display_none{
+    display: none;
+}
