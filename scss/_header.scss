@@ -59,8 +59,8 @@
         background-image: url("../img/hacker1.png");
         background-size: contain;
         background-repeat: no-repeat;
-        max-height: 750px;
-        max-width: 850px;
+        height: 750px;
+        width: 850px;
         z-index: 0;
         position: absolute;
         bottom: 0;
@@ -74,8 +74,8 @@
         background-size: contain;
         background-position: bottom left;
         background-repeat: no-repeat;
-        max-height: 500px;
-        max-width: 750px;
+        height: 500px;
+        width: 750px;
         z-index: 0;
         position: absolute;
         bottom: 0;
@@ -250,6 +250,8 @@
 @media (max-width: 620px) {
 
     .header {
+
+        height: 60vh;
 
         .img_hack {
 

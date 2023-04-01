@@ -194,8 +194,8 @@ body {
   background-image: url("../img/hacker1.png");
   background-size: contain;
   background-repeat: no-repeat;
-  max-height: 750px;
-  max-width: 850px;
+  height: 750px;
+  width: 850px;
   z-index: 0;
   position: absolute;
   bottom: 0;
@@ -207,8 +207,8 @@ body {
   background-size: contain;
   background-position: bottom left;
   background-repeat: no-repeat;
-  max-height: 500px;
-  max-width: 750px;
+  height: 500px;
+  width: 750px;
   z-index: 0;
   position: absolute;
   bottom: 0;
@@ -308,6 +308,9 @@ body {
   }
 }
 @media (max-width: 620px) {
+  .header {
+    height: 60vh;
+  }
   .header .img_hack {
     width: 250px;
     height: 228px;
@@ -367,7 +370,7 @@ body {
   flex-wrap: wrap;
 }
 .comment_body {
-  padding: 5px;
+  padding: 10px;
   border-radius: 15px;
   margin: 10px;
   background-color: #1A5B57;
@@ -436,6 +439,7 @@ body {
 .about_victory__body__text__p {
   font-size: 30px;
   font-size: "Roboto";
+  text-align: center;
 }
 
 @media (max-width: 1100px) {
